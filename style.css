@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Young-Serif';
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1280px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.5em;
+        margin-bottom: 3.5em;
+    }
+
+    .container{
+        width: 40%;
+        border-radius: 10px;
+        padding: 2em;
+    }
+}
+
+p{
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    color: hsl(30, 18%, 87%);
+}
+
+.omlette-image{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width:1280px){
+    .omlette-image{
+        border-radius: 10px;
+    }
+}
+
+.item{
+    margin: 1em;
+    margin-bottom: 0px;
+}
+
+.receipe-header{
+    font-size: 2em;
+    font: Young-serif;
+    font-weight: 800;
+    margin-left: 0.5em;
+}
+
+.item-lists{
+    margin: 0px;
+    margin-left: -1em;
+    color: hsl(30, 10%, 34%);
+}
+
+.horizontal-line{
+    margin-top: 2em;
+}
+
+.item-lists li{
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+.session-header{
+    font-size: 1.5em;
+    font-family: Young-Serif;
+    font-weight: 500;
+    margin-bottom: .5em;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    border-radius: 16px;
+}
+
+.preparation-header{
+    font: Outfit;
+    margin: 0.5em;
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-elements li{
+    margin-top: .5em;
+}
+
+.instruction-items{
+    color: hsl(30, 10%, 34%);
+
+}
+
+.nutrition-container-table{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nutrition-table-items{
+    width: 40%;
+    flex-grow: 1;
+    margin-left: 5%;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+span{
+    color: hsl(30, 10%, 34%);
+}
+
+span + span{
+    color: hsl(30, 10%, 34%);
+    font-weight: bold;
+}
